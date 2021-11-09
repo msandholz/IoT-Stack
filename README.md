@@ -12,7 +12,11 @@
 
 2. Setting Docker user rigths: `sudo usermod -aG docker pi`  
 
-2. Install Docker Compose: `sudo apt-get install libffi-dev libssl-dev` `sudo apt-get install -y python3 python3-pip` `sudo apt-get remove python-configparser` `sudo pip3 install docker-compose`
+2. Install Docker Compose: 
+   - `sudo apt-get install libffi-dev libssl-dev`  
+   - `sudo apt-get install -y python3 python3-pip`
+   - `sudo apt-get remove python-configparser`
+   - `sudo pip3 install docker-compose`
 
 3. Install GIT: `sudo apt-get install git`
 
