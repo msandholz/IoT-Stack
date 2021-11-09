@@ -21,16 +21,10 @@
 
 7. End Docker
 
-IoT-Stack beenden: 
-> docker-compose down
+IoT-Stack beenden: `docker-compose down`
 
-Volumes löschen: 
-> docker volume prune
+Volumes löschen: `docker volume prune`
 
-Images löschen: 
-> docker image prune
+Images löschen: `docker image prune`
 
-Netzwerke löschen: 
-> docker network prune
-
-
+Netzwerke löschen: `docker network prune`
