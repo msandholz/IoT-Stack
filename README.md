@@ -21,7 +21,8 @@
 
 3. Install GIT: `sudo apt-get install git`
 
-4. Clone GIT Repository: `git clone https://github.com/echtelerp/IoT-Stack-tutorial.git`
+4. Clone GIT Repository: `git clone https://github.com/msandholz/IoT-Stack.git`
+   (`git clone https://github.com/echtelerp/IoT-Stack-tutorial.git`)
 
 5. Run Docker Compose: `docker-compose up -d` 
 
