@@ -56,6 +56,20 @@ services:
       - mosquittoData:/mosquitto/data
     networks:
       - edge
+          
+  portainer:
+    image: portainer/portainer:latest
+    container_name: portainer
+    restart: always
+    ports:
+      - 8999:9000
+      - 8000:8000
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainerData:/portainer/data
+    networks:
+      - edge    
+      
 #Create internal link network for Containers
 networks:
   edge:
@@ -67,3 +81,5 @@ volumes:
   influxData:
   mosquittoLog:
   mosquittoData:
+  mosquittoConfig:
+  portainerData:
