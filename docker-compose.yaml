@@ -55,8 +55,7 @@ services:
       - mosquittoLog:/mosquitto/log
       - mosquittoData:/mosquitto/data
     networks:
-      - edge
-          
+      - edge        
   portainer:
     image: portainer/portainer:latest
     container_name: portainer
@@ -65,7 +64,6 @@ services:
       - 8999:9000
       - 8000:8000
     volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
       - portainerData:/portainer/data
     networks:
       - edge    
