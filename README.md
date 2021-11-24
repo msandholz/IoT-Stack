@@ -34,3 +34,10 @@
    - Volumes löschen: `docker volume prune`
    - Images löschen: `docker image prune`
    - Netzwerke löschen: `docker network prune`
+
+
+8. Config ⏵ mosquitto.conf
+```
+allow_anonymous true
+listener 1883 192.168.1.202
+```
