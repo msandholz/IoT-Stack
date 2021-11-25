@@ -44,3 +44,6 @@
 allow_anonymous true
 listener 1883 192.168.1.202
 ```
+
+9. InfluxDB : https://docs.influxdata.com/influxdb/v1.8/introduction/get-started/
+10. 
