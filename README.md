@@ -45,6 +45,7 @@
 
 ====
 
+ 9.  `influx user create -n <username> -o <org-name>`
 
 
 8. Config ⏵ mosquitto.conf
