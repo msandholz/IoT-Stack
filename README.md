@@ -46,8 +46,8 @@
 ====
 
  9. 
-    `influx user create -n <username> -o <org-name>`
-    `   `
+    `influx USER CREATE -n <username> -o <org-name>`
+    `CREATE DATABASE mydb`
 
 
 8. Config ⏵ mosquitto.conf
