@@ -38,6 +38,14 @@
    - Images löschen: `docker image prune`
    - Netzwerke löschen: `docker network prune`
 
+8. SSH to running Docker Container
+   - Get IP Adress of Container: `sudo docker inspect -f "{{ .NetworkSettings.IPAddress }}" container_name`
+   - Check communication: `ping –c 3 172.17.0.2`
+   - SSH to Docker Container: `ssh root@172.17.0.2`
+
+====
+
+
 
 8. Config ⏵ mosquitto.conf
 ```
