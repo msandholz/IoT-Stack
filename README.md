@@ -49,9 +49,16 @@
    - Check communication: `ping –c 3 172.17.0.2`
    - SSH to Docker Container: `ssh root@172.17.0.2`
 
+9. Configure Influxdb
+   - Run bash in influxdb container: `docker exec -it influxdb bash`
+   - Then start the influxdb shell with: `influx`
+
+
 ====
 
- 9. 
+
+
+`docker exec -it influxdb bash`
     `influx USER CREATE -n <username> -o <org-name>`
     `CREATE DATABASE mydb`
 
