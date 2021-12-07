@@ -39,6 +39,10 @@
    - Netzwerke löschen: `docker network prune`
 
 8. SSH to running Docker Container
+   - List docker containers: `docker ps`
+   - Start docker container: `docker start <CONTAINER ID>` 
+   - Stop docker container: `docker stop <CONTAINER ID>`
+
    - Get IP Adress of Container: `sudo docker inspect -f "{{ .NetworkSettings.IPAddress }}" container_name`
    - Check communication: `ping –c 3 172.17.0.2`
    - SSH to Docker Container: `ssh root@172.17.0.2`
