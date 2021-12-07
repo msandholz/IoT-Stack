@@ -43,6 +43,7 @@
    - List all running containers: `docker ps -a`
    - Start docker container: `docker start <CONTAINER ID>` 
    - Stop docker container: `docker stop <CONTAINER ID>`
+   - Get into container path: `docker exec -it <CONTAINER ID> bash` 
 
    - Get IP Adress of Container: `sudo docker inspect -f "{{ .NetworkSettings.IPAddress }}" container_name`
    - Check communication: `ping –c 3 172.17.0.2`
