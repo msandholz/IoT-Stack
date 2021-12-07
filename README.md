@@ -40,6 +40,7 @@
 
 8. SSH to running Docker Container
    - List docker containers: `docker ps`
+   - List all running containers: `docker ps -a`
    - Start docker container: `docker start <CONTAINER ID>` 
    - Stop docker container: `docker stop <CONTAINER ID>`
 
