@@ -52,6 +52,7 @@
 9. Configure Influxdb
    - Run bash in influxdb container: `docker exec -it influxdb bash`
    - Then start the influxdb shell with: `influx`
+   - `>`
 
 
 ====
