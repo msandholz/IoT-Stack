@@ -54,8 +54,16 @@
    - Then start the influxdb shell with: `influx`
    - Log into influx `>auth` / `username: ` / `password: xxx`
    - Create database with: `> create database fermention_cabinet`
-   - Show all influx databases with: ```> show databases```
-`
+   - Show all influx databases with: 
+     ```> show databases
+     name: databases
+     name
+     ----
+      DBONE
+     _internal
+     fermention_cabinet   
+     ```
+
 
 
 
