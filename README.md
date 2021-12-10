@@ -53,7 +53,7 @@
    - Run bash in influxdb container: `docker exec -it influxdb bash`
    - Then start the influxdb shell with: `influx`
    - Log into influx `>auth` / `username: ` / `password: xxx`
-   - Create database with: `> create database fermention_cabinet
+   - Create database with: `> create database fermention_cabinet`
    - Show all influx databases with: ```> show databases```
 `
 
