@@ -68,6 +68,7 @@
      _internal
      brewery   
      ```
+    - Delete database with: `DROP DATABASE <dbname>` 
 
 
 
