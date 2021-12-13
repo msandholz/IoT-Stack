@@ -73,9 +73,9 @@
       ```
       > USE BREWERY
       Using database BREWERY
-      > INSERT fermantation,location=albaum temperature=20
-      > SELECT * FROM "fermantation"
-      name: fermantation
+      > INSERT fermentation,location=albaum temperature=20
+      > SELECT * FROM "fermentation"
+      name: fermentation
       time                location temperature
       ----                -------- -----------
       1639416358939314220 albaum   20
