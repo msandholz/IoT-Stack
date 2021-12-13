@@ -56,7 +56,8 @@
    - Run bash in influxdb container: `docker exec -it influxdb bash`
    - Then start the influxdb shell with: `influx`
    - Log into influx `>auth` / `username: ` / `password: xxx`
-   - Create database with: `> create database fermention_cabinet`
+   - Change Password with: `> SET PASSWORD FOR <user> = <'PASSWORD'>`
+   - Create database with: `> create database brewery`
    - Show all influx databases with: 
      ```
      > show databases
@@ -65,7 +66,7 @@
      ----
      DBONE
      _internal
-     fermention_cabinet   
+     brewery   
      ```
 
 
