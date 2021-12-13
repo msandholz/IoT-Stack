@@ -24,7 +24,7 @@ services:
       - edge
   influxdb:
     build: ./influx
-    image: localbuild/influxdb:april2021
+    image: localbuild/influxdb:latest
     container_name: influxdb
     restart: unless-stopped
     environment:
