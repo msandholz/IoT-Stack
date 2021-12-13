@@ -27,7 +27,7 @@
 4. Clone GIT Repository: `git clone https://github.com/msandholz/IoT-Stack.git`
    (`git clone https://github.com/echtelerp/IoT-Stack-tutorial.git`)
 
-5. Run Docker Compose: `docker-compose up -d` 
+5. Run Docker Compose: `pi@RasPi-Server:~/IoT-Stack $ docker-compose up -d` 
 
 6. Check 
 
