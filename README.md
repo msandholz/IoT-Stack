@@ -69,8 +69,17 @@
      BREWERY   
      ```
     - Delete database with: `DROP DATABASE <dbname>` 
-    - insert dats: `INSERT BREWERY,location=albaum temperature=20`
-
+    - Insert data to database: 
+      ```
+      > USE BREWERY
+      Using database BREWERY
+      > INSERT fermantation,location=albaum temperature=20
+      > SELECT * FROM "fermantation"
+      name: fermantation
+      time                location temperature
+      ----                -------- -----------
+      1639416358939314220 albaum   20
+      ```
 
 
 
