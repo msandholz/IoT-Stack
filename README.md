@@ -57,7 +57,7 @@
    - Then start the influxdb shell with: `influx`
    - Log into influx `>auth` / `username: ` / `password: xxx`
    - Change Password with: `> SET PASSWORD FOR <user> = <'PASSWORD'>`
-   - Create database with: `> create database brewery`
+   - Create database with: `> create database BREWERY`
    - Show all influx databases with: 
      ```
      > show databases
@@ -66,9 +66,10 @@
      ----
      DBONE
      _internal
-     brewery   
+     BREWERY   
      ```
     - Delete database with: `DROP DATABASE <dbname>` 
+    - insert dats: `INSERT BREWERY,location=albaum temperature=20`
 
 
 
