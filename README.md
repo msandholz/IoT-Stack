@@ -36,7 +36,7 @@
    - IoT-Stack beenden: `docker-compose down`
    - Volumes löschen: `docker volume prune`
    - Images auflisten: `docker image list`
-   - Images löschen: `docker image rm <IMAGE ID>` 
+   - Images löschen: `docker image rm --force <IMAGE ID>` 
    - Ungenutze Images löschen: `docker image prune`
    - Netzwerke löschen: `docker network prune`
 
