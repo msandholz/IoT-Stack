@@ -53,44 +53,12 @@
    - SSH to Docker Container: `ssh root@172.17.0.2`
 
 9. Configure Influxdb
-   - Run bash in influxdb container: `docker exec -it influxdb bash`
-   - Then start the influxdb shell with: `influx`
-   - Log into influx `>auth` / `username: ` / `password: xxx`
-   - Change Password with: `> SET PASSWORD FOR <user> = <'PASSWORD'>`
-   - Create database with: `> create database BREWERY`
-   - Show all influx databases with: 
-     ```
-     > show databases
-     name: databases
-     name
-     ----
-     DBONE
-     _internal
-     BREWERY   
-     ```
-    - Delete database with: `DROP DATABASE <dbname>` 
-    - Insert data to database: 
-      ```
-      > USE BREWERY
-      Using database BREWERY
-      > INSERT fermentation,location=albaum temperature=20
-      > SELECT * FROM "fermentation"
-      name: fermentation
-      time                location temperature
-      ----                -------- -----------
-      1639416358939314220 albaum   20
-      ```
+   - For more information regarding influxdb follow the wiki: https://github.com/msandholz/IoT-Stack/wiki/InfluxDB
+  
 
 
 
-====
-
-
-
-`docker exec -it influxdb bash`
-    `influx USER CREATE -n <username> -o <org-name>`
-    `CREATE DATABASE mydb`
-
+========
 
 8. Config ⏵ mosquitto.conf
 ```
