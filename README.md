@@ -56,7 +56,7 @@
    - For more information regarding influxdb follow the wiki: https://github.com/msandholz/IoT-Stack/wiki/InfluxDB
   
 10. Use Mosquitto MQTT Broker
-   - For more information regarding publish and subcribe messages follow the wiki: 
+   - For more information regarding publish and subcribe messages follow the wiki: https://github.com/msandholz/IoT-Stack/wiki/Mosquitto-MQTT-Broker
 
 
 
