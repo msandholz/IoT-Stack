@@ -58,15 +58,3 @@
 10. Use Mosquitto MQTT Broker
    - For more information regarding publish and subcribe MQTT messages follow the wiki: https://github.com/msandholz/IoT-Stack/wiki/Mosquitto-MQTT-Broker
 
-
-
-========
-
-8. Config ⏵ mosquitto.conf
-```
-allow_anonymous true
-listener 1883 192.168.1.202
-```
-
-9. InfluxDB : https://docs.influxdata.com/influxdb/v1.8/introduction/get-started/
-10. 
