@@ -60,5 +60,5 @@
 
 11. Grafana
    - Reset Grafana Password:
-     1. Get Container ID: docker ps 
-     2. Reset PW: docker exec -ti <Container ID> grafana-cli admin reset-admin-password <new password>
+     1. Get Container ID: `docker ps` 
+     2. Reset PW: `docker exec -ti <Container ID> grafana-cli admin reset-admin-password <new password>`
