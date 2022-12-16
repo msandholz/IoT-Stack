@@ -58,3 +58,7 @@
 10. Use Mosquitto MQTT Broker
    - For more information regarding publish and subcribe MQTT messages follow the wiki: https://github.com/msandholz/IoT-Stack/wiki/Mosquitto-MQTT-Broker
 
+11. Grafana
+   - Reset Grafana Password:
+     1. Get Container ID: docker ps 
+     2. Reset PW: docker exec -ti <Container ID> grafana-cli admin reset-admin-password <new password>
